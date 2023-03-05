@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgba(135, 249, 5, 0.619);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(150, 249, 2);
+    width: 600px;
+    height: 500px;
+    box-shadow: 4px 8px 16px rgb(4, 83, 241);
+    border: 1px solid rgb(148, 235, 9);
+    border-radius: 40px;
+    padding: 40px;
+}
